@@ -11,10 +11,12 @@
 }
 
 body {
+  text-align: center;
   background-color: #393E46;
 }
 
 h1 {
+  display: inline-block;
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
@@ -26,6 +28,12 @@ p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
+}
+p.result{
+  margin: 1% 0;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
 }
 
 img {
